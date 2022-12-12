@@ -1,3 +1,5 @@
+#ferramenta que faz commits de repositórios remotos
+
 echo " 
 
                __                                             _ __ 
@@ -9,11 +11,14 @@ echo "
 by Zack
  "
 sleep 3
+#####################################
 
 cd frontend #pasta do projeto
 git add .
 git commit -m "$1"
 git push
+
+#####################################
 cd ..
 cd backend #pasta do projeto
 git add .
